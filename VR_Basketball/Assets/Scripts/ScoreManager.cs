@@ -10,8 +10,17 @@ public class ScoreManager : MonoBehaviour
     public int score;
 
     [Header("投進分數")]
-    public int scorein;
+    public int scorein =2;
 
+    [Header("進球音效")]
+    public AudioClip soundin;
+
+    private AudioSource aud;
+
+    private void Awake()
+    {
+        aud = GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -36,6 +45,7 @@ public class ScoreManager : MonoBehaviour
     {
         score += scorein;
         textScroe.text = "分數:" + score;
+        aud.PlayOneShot(soundin, Random.Range(1f, 10f));
 
     }
 }

@@ -1444,8 +1444,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e595a65e0f1cd42b278e3acbdba464, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 636214005}
+  textScroe: {fileID: 636214005}
   score: 0
+  scorein: 0
 --- !u!4 &1643316934
 Transform:
   m_ObjectHideFlags: 0
@@ -1458,6 +1459,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 924543876}
+  - {fileID: 1767265723}
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1684,6 +1686,50 @@ Transform:
   m_Father: {fileID: 922744974}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!1 &1767265722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1767265723}
+  - component: {fileID: 1767265724}
+  m_Layer: 0
+  m_Name: "\u4E09\u5206\u5340\u57DF"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767265723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767265722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.524, y: -6.9, z: -1.56}
+  m_LocalScale: {x: 5.3614, y: 1, z: 5.452789}
+  m_Children: []
+  m_Father: {fileID: 1643316934}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1767265724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767265722}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!135 &1770032016 stripped
 SphereCollider:
   m_CorrespondingSourceObject: {fileID: 3226272255981606842, guid: 23b8909b113271b468b798e118fca8aa,

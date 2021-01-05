@@ -3,7 +3,72 @@ guid: 364efaecd5f599641a1489ec6eebd78d
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basketball_Stand
+    second: {fileID: 2100000, guid: 0f128ac158ad02e4494e1e71f2579799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bench_Bottom
+    second: {fileID: 2100000, guid: fac6a4292f21de54ab152418e3653a39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bench_Top
+    second: {fileID: 2100000, guid: e1c2cf500fc83a945afff070ba7e5c39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dust_Bin
+    second: {fileID: 2100000, guid: 086ac11211d921949bb896474e2726ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inner Floor
+    second: {fileID: 2100000, guid: 89cb933b6caaad84fb044664c05a96c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_Pillars
+    second: {fileID: 2100000, guid: 8b87e15c021d8ac4a9b82d1abaf82f25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: d85a421ab0a18a2458ffc6b9367f68c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mesh
+    second: {fileID: 2100000, guid: 85082411d6aca274cb3cfac4750d7f46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outer_Floor
+    second: {fileID: 2100000, guid: ec766f58343a91946babcb123aee65af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: e93d0ef8e117e4e4fa91f278661ba3b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Support_Pillars
+    second: {fileID: 2100000, guid: 4eb5914f76537fb40a431df76428010d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 66af11be8de4b4a4f9ce3e0b09d28b49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: a896c937c5bd73f45a8992fc1bf30242, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -31,7 +96,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 0
+    isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 7
